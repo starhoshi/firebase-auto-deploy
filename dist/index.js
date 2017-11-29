@@ -19,7 +19,7 @@ program
 
 var pre_process
 
-const watcher = chokidar.watch(path.join(program.path, program.filename), { })
+const watcher = chokidar.watch(path.join(program.path, program.filename), { ignoreInitial: true })
 watcher.on('all', (event, path) => {
   console.log(event, path)
 
