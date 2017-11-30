@@ -1,6 +1,6 @@
 {
   "name": "firebase-auto-deploy",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Auto deploy Cloud Functios For Firebase when you update files.",
   "preferGlobal": true,
   "bin": {
