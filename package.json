@@ -1,10 +1,10 @@
 {
   "name": "firebase-auto-deploy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Auto deploy Cloud Functios For Firebase when you update files.",
   "preferGlobal": true,
   "bin": {
-    "firebase-auto-deploy": "dist/index.js"
+    "firebase-auto-deploy": "bin/firebase-auto-deploy"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
