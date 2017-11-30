@@ -13,8 +13,8 @@ program
       return 'functions:' + f
     }).join(',')
   }, 'functions')
-  .option('-p, --path <value>', 'watch path', toString, './')
-  .option('-n, --filename <value>', 'watch filename', toString, '*.js')
+  .option('-p, --path <value>', 'watch path', String, './')
+  .option('-n, --filename <value>', 'watch filename', String, '*.js')
   .parse(process.argv)
 
 var pre_process
